@@ -9,4 +9,6 @@ https://cyberspikes.com/projects/setting-up-a-siem-in-azure/
 
 https://www.youtube.com/watch?v=tHicENradv8
 
+https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1
+
 
