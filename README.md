@@ -11,17 +11,17 @@ https://www.youtube.com/watch?v=tHicENradv8
 
 https://github.com/joshmadakor1/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1
 
-Activity after initial implementation:
+### Activity after initial implementation:
 ![image](https://github.com/user-attachments/assets/12775866-900d-4220-bb80-a91c75f5b226)
 
-Activity ~ 4 hours after implementation:
+### Activity ~ 4 hours after implementation:
 ![image](https://github.com/user-attachments/assets/bf10d674-f690-4415-b76f-7ae15605f1de)
 
-# Issues I had while working on this project
+## Issues I had while working on this project
 
-Overall, this project was straightforward and relatively easy to follow. Once I became familiar with the Azure platform, completing the steps became much simpler. However, I encountered an issue with differences in the Azure platform compared to the original documentation I was following, which was a few years old. Specifically, I faced a challenge when extracting the raw data from the 'failed_rdp' file. It no longer supported data extraction as described in the documentation. To overcome this, I found a solution by using the query provided in the code section of this repository. This allowed me to extract only the raw data from my 'failed_rd'p file and use its key fields to plot the map successfully.
+Overall, this project was straightforward and relatively easy to follow. Once I became familiar with the Azure platform, completing the steps became much simpler. However, I encountered an issue with differences in the Azure platform compared to the original documentation I was following, which was a few years old. Specifically, I faced a challenge when extracting the raw data from the 'failed_rdp' file. It no longer supported data extraction as described in the documentation. To overcome this, I found a solution by using the query provided in the 'MappingQuery' file in this repository. This allowed me to extract only the raw data from my 'failed_rdp' file and use its key fields to plot the map successfully.
 
-# Azure Sentinel Honeypot Setup: Steps I Completed  
+## Azure Sentinel Honeypot Setup: Steps I Completed  
 
 1. Created an Azure Account and VM  
    I set up my Azure account, logged into the portal, and created a virtual machine with basic configurations (name, region, and login creds).  
@@ -58,5 +58,3 @@ Overall, this project was straightforward and relatively easy to follow. Once I 
 
 13. Monitored and Cleaned Up  
     I monitored the attack patterns on the map and deleted the resource group to clean up once the project was complete.  
-
-This project gave me hands-on experience with cloud security monitoring and using Azure Sentinel as a SIEM platform.
